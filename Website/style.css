@@ -1,0 +1,159 @@
+/* general */
+body {
+  font-family: "Andale Mono", monospace;
+  font-size: 18px;
+  color: #FFFFFF; /* white */
+  background-color: #000000; /* black */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #FFFFFF; /* white */
+}
+
+h2 {
+  color: #7FC1A2;
+}
+
+.name {
+  text-align: left;
+}
+
+.nav {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #CDFFE8; /* light teal */
+}
+
+.nav a:hover {
+  color: #7FC1A2; /* teal */
+}
+
+/* index */
+#home-photo {
+  height: 400px;
+  width: 400px;
+}
+
+#home-photo-credit {
+  font-size: 12px;
+}
+
+.home-container a {
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #CDFFE8; /* light teal */
+}
+
+.home-container a:hover {
+  color: #7FC1A2; /* teal */
+}
+
+/* cv */
+.cv-container a {
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #CDFFE8; /* light teal */
+}
+
+.cv-container a:hover {
+  color: #7FC1A2; /* teal */
+}
+
+/* contact */
+
+#contact-photo {
+  height: 450px;
+  width: 450px;
+}
+
+.contact-container p {
+  font-size: 20px;
+}
+
+/* portfolio */
+#digital-photo {
+  height: 350px;
+  width: 350px;
+  transition: all .3s ease-in-out;
+}
+
+#digital-photo:hover {
+  opacity: 0.5;
+}
+
+#sculpture-photo {
+  height: 350px;
+  width: 350px;
+  transition: all .3s ease-in-out;
+}
+
+#sculpture-photo:hover {
+  opacity: 0.5;
+}
+
+#photography-photo {
+  height: 350px;
+  width: 350px;
+  transition: all .3s ease-in-out;
+}
+
+#photography-photo:hover {
+  opacity: 0.5;
+}
+
+#video-photo {
+  height: 350px;
+  width: 350px;
+  transition: all .3s ease-in-out;
+}
+
+#video-photo:hover {
+  opacity: 0.5;
+}
+
+#videogame-photo {
+  height: 350px;
+  width: 350px;
+  transition: all .3s ease-in-out;
+}
+
+#videogame-photo:hover {
+  opacity: 0.5;
+}
+
+.back-to-portfolio {
+  text-align: left;
+}
+
+.back-to-portfolio a {
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #CDFFE8; /* light teal */
+}
+
+.back-to-portfolio a:hover {
+  color: #7FC1A2; /* teal */
+}
+
+/* digital */
+#digital-artschools {
+  height: 620px;
+  width: 437px;
+}
+
+#digital-barrowland {
+  height: 877px;
+  width: 620px;
+}
+
+#digital-claws {
+  height: 487.5px;
+  width: 337.5px;
+}
