@@ -59,6 +59,7 @@ h2 {
 .home-container p {
   margin-left: 100px;
   margin-right: 100px;
+}
 
 /* cv */
 .cv-container a {
@@ -148,6 +149,11 @@ h2 {
 }
 
 /* digital */
+.digital-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 #digital-disability {
   height: 658px;
   width: 508px;
@@ -166,8 +172,6 @@ h2 {
   height: 576px;
   width: 1024.5px;
   margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 #digital-taxidermy {
@@ -225,6 +229,11 @@ h2 {
 }
 
 /* sculpture */
+.sculpture-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 #sculpture-glasgowjars {
   height: 650px;
   width: 865px;
@@ -312,6 +321,11 @@ h2 {
 }
 
 /* photography */
+.photography-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 #photography-lochness {
   height: 667px;
   width: 1000px;
@@ -381,12 +395,20 @@ h2 {
 }
 
 /* video */
+.video-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 .video-container iframe {
   margin-bottom: 20px;
 }
 
 /* video games */
+.videogame-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 #videogame-buckaroo {
   height: 280px;
