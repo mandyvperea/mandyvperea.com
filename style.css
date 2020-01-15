@@ -1,38 +1,39 @@
 /* general */
 body {
-  font-family: "Andale Mono", monospace;
+  font-family: "Courier New", monospace;
   font-size: 18px;
-  color: #FFFFFF; /* white */
-  background-color: #000000; /* black */
+  color: #00373A; /* dark teal */
+  background-color: #E2E8D9; /* super light green */
   text-align: center;
   margin-bottom: 20px;
 }
 
 h1 {
-  color: #FFFFFF; /* white */
+  color: #004816; /* super dark green */
 }
 
 h2 {
-  color: #7FC1A2;
+  color: #004816; /* super dark green */
 }
 
-.name {
-  text-align: left;
+#name {
+  height: 147.25px;
+  width: 512px;
 }
 
 .nav {
-  text-align: left;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .nav a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #CDFFE8; /* light teal */
+  color: #7C9456; /* light green */
 }
 
 .nav a:hover {
-  color: #7FC1A2; /* teal */
+  color: #33756A; /* teal */
 }
 
 /* index */
@@ -48,29 +49,29 @@ h2 {
 .home-container a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #CDFFE8; /* light teal */
+  color: #7C9456; /* light green */
 }
 
 .home-container a:hover {
-  color: #7FC1A2; /* teal */
+  color: #33756A; /* teal */
 }
 
 /* cv */
 .cv-container a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #CDFFE8; /* light teal */
+  color: #7C9456; /* light green */
 }
 
 .cv-container a:hover {
-  color: #7FC1A2; /* teal */
+  color: #33756A; /* teal */
 }
 
 /* contact */
 
 #contact-photo {
-  height: 450px;
-  width: 450px;
+  height: 400px;
+  width: 400px;
 }
 
 .contact-container p {
@@ -129,31 +130,272 @@ h2 {
 }
 
 .back-to-portfolio {
-  text-align: left;
+  text-align: right;
 }
 
 .back-to-portfolio a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #CDFFE8; /* light teal */
+  color: #7C9456; /* light green */
 }
 
 .back-to-portfolio a:hover {
-  color: #7FC1A2; /* teal */
+  color: #33756A; /* teal */
 }
 
 /* digital */
-#digital-artschools {
-  height: 620px;
-  width: 437px;
+#digital-disability {
+  height: 658px;
+  width: 508px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 #digital-barrowland {
-  height: 877px;
-  width: 620px;
+  height: 658px;
+  width: 465px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#digital-parasitoid {
+  height: 576px;
+  width: 1024.5px;
+  margin-bottom: 20px;
+}
+
+#digital-taxidermy {
+  height: 658px;
+  width: 450px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#digital-pans {
+  height: 658px;
+  width: 456px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#digital-artschools {
+  height: 650px;
+  width: 513px;
+  margin-bottom: 20px;
+}
+
+#digital-weevil {
+  height: 633px;
+  width: 950px;
+  margin-bottom: 20px;
+}
+
+#digital-taxidermist {
+  height: 650px;
+  width: 450px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#digital-thoracic {
+  height: 650px;
+  width: 450px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#digital-hostbusters {
+  height: 650px;
+  width: 450px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 #digital-claws {
-  height: 487.5px;
-  width: 337.5px;
+  height: 650px;
+  width: 450px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* sculpture */
+#sculpture-glasgowjars {
+  height: 650px;
+  width: 865px;
+  margin-bottom: 20px;
+}
+
+#sculpture-cicada {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#sculpture-ants {
+  height: 650px;
+  width: 434px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#sculpture-cassettes {
+  height: 650px;
+  width: 488px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#sculpture-midres1 {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#sculpture-midres2 {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#sculpture-hands1 {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#sculpture-hands2 {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#sculpture-queerlove {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#sculpture-cat {
+  height: 600px;
+  width: 874px;
+  margin-bottom: 20px;
+}
+
+#sculpture-porcupine {
+  height: 648px;
+  width: 864px;
+  margin-bottom: 20px;
+}
+
+#sculpture-raccoon {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#sculpture-beaver {
+  height: 648px;
+  width: 864px;
+  margin-bottom: 20px;
+}
+
+#sculpture-crow {
+  height: 648px;
+  width: 864px;
+  margin-bottom: 20px;
+}
+
+/* photography */
+#photography-lochness {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-glasgow {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-urquhart {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-self {
+  height: 650px;
+  width: 434px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#photography-marley {
+  height: 650px;
+  width: 434px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#photography-elodie {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-dragonfly {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-mammoth {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-house {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-bigbear {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+#photography-boats {
+  height: 667px;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+/* video */
+
+.video-container iframe {
+  margin-bottom: 20px;
+}
+
+/* video games */
+
+#videogame-buckaroo {
+  height: 280px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+#videogame-lightningbug {
+  height: 256px;
+  width: 212px;
+  margin-bottom: 20px;
+}
+
+#videogame-freshcuts {
+height: 300px;
+width: 368px;
+margin-bottom: 20px;
 }
