@@ -2,23 +2,23 @@
 body {
   font-family: "Courier New", monospace;
   font-size: 18px;
-  color: #00373A; /* dark teal */
-  background-color: #E2E8D9; /* super light green */
+  color: #1A1100; /* dark brown */
+  background-color: #FFFDF8; /* light cream */
   text-align: center;
   margin-bottom: 20px;
 }
 
 h1 {
-  color: #004816; /* super dark green */
+  color: #000000; /* black */
 }
 
 h2 {
-  color: #004816; /* super dark green */
+  color: #000000; /* black */
 }
 
 #name {
-  height: 147.25px;
-  width: 512px;
+  height: 87px;
+  width: 384px;
 }
 
 .nav {
@@ -29,11 +29,11 @@ h2 {
 .nav a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #7C9456; /* light green */
+  color: #1A1100; /* dark brown */
 }
 
 .nav a:hover {
-  color: #33756A; /* teal */
+  color: #E5B317; /* yellow */
 }
 
 /* index */
@@ -49,11 +49,11 @@ h2 {
 .home-container a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #7C9456; /* light green */
+  color: #1A1100; /* dark brown */
 }
 
 .home-container a:hover {
-  color: #33756A; /* teal */
+  color: #E5B317; /* yellow */
 }
 
 .home-container p {
@@ -65,11 +65,11 @@ h2 {
 .cv-container a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #7C9456; /* light green */
+  color: #1A1100; /* dark brown */
 }
 
 .cv-container a:hover {
-  color: #33756A; /* teal */
+  color: #E5B317; /* yellow */
 }
 
 /* contact */
@@ -84,68 +84,18 @@ h2 {
 }
 
 /* portfolio */
-#digital-photo {
-  height: 350px;
-  width: 350px;
-  transition: all .3s ease-in-out;
-}
-
-#digital-photo:hover {
-  opacity: 0.5;
-}
-
-#sculpture-photo {
-  height: 350px;
-  width: 350px;
-  transition: all .3s ease-in-out;
-}
-
-#sculpture-photo:hover {
-  opacity: 0.5;
-}
-
-#photography-photo {
-  height: 350px;
-  width: 350px;
-  transition: all .3s ease-in-out;
-}
-
-#photography-photo:hover {
-  opacity: 0.5;
-}
-
-#video-photo {
-  height: 350px;
-  width: 350px;
-  transition: all .3s ease-in-out;
-}
-
-#video-photo:hover {
-  opacity: 0.5;
-}
-
-#videogame-photo {
-  height: 350px;
-  width: 350px;
-  transition: all .3s ease-in-out;
-}
-
-#videogame-photo:hover {
-  opacity: 0.5;
-}
-
-.back-to-portfolio {
+.back-to-top {
   text-align: right;
 }
 
-.back-to-portfolio a {
+.back-to-top a {
   transition: all .3s ease-in-out;
   text-decoration: none;
-  color: #7C9456; /* light green */
+  color: #1A1100; /* dark brown */
 }
 
-.back-to-portfolio a:hover {
-  color: #33756A; /* teal */
+.back-to-top a:hover {
+  color: #E5B317; /* yellow */
 }
 
 /* digital */
@@ -226,6 +176,28 @@ h2 {
   width: 450px;
   margin-bottom: 20px;
   margin-left: 20px;
+}
+
+#videogame-buckaroo {
+  height: 280px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+#videogame-lightningbug {
+  height: 256px;
+  width: 212px;
+  margin-bottom: 20px;
+}
+
+#videogame-freshcuts {
+height: 300px;
+width: 368px;
+margin-bottom: 20px;
+}
+
+.digital-container iframe {
+  margin-bottom: 20px;
 }
 
 /* sculpture */
@@ -392,38 +364,4 @@ h2 {
   height: 667px;
   width: 1000px;
   margin-bottom: 20px;
-}
-
-/* video */
-.video-container {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.video-container iframe {
-  margin-bottom: 20px;
-}
-
-/* video games */
-.videogame-container {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-#videogame-buckaroo {
-  height: 280px;
-  width: 280px;
-  margin-bottom: 20px;
-}
-
-#videogame-lightningbug {
-  height: 256px;
-  width: 212px;
-  margin-bottom: 20px;
-}
-
-#videogame-freshcuts {
-height: 300px;
-width: 368px;
-margin-bottom: 20px;
 }
