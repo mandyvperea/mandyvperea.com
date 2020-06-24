@@ -5,7 +5,7 @@ body {
   color: #1A1100; /* dark brown */
   background-color: #FFFDF8; /* light cream */
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -62,6 +62,11 @@ h2 {
 }
 
 /* cv */
+.cv-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .cv-container a {
   transition: all .3s ease-in-out;
   text-decoration: none;
@@ -74,9 +79,24 @@ h2 {
 
 /* contact */
 
-#contact-photo {
-  height: 400px;
-  width: 400px;
+#contact-etsy {
+  height: 150px;
+  width: 150px;
+}
+
+#contact-linkedin {
+  height: 150px;
+  width: 150px;
+}
+
+#contact-twitter {
+  height: 150px;
+  width: 150px;
+}
+
+#contact-insta {
+  height: 150px;
+  width: 150px;
 }
 
 .contact-container p {
@@ -196,6 +216,12 @@ width: 368px;
 margin-bottom: 20px;
 }
 
+#videogame-cantwin {
+height: 300px;
+width: 300px;
+margin-bottom: 20px;
+}
+
 .digital-container iframe {
   margin-bottom: 20px;
 }
@@ -204,6 +230,12 @@ margin-bottom: 20px;
 .sculpture-container {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+#sculpture-thesis {
+  height: 604.8px;
+  width: 806.4px;
+  margin-bottom: 20px;
 }
 
 #sculpture-glasgowjars {
@@ -364,4 +396,16 @@ margin-bottom: 20px;
   height: 667px;
   width: 1000px;
   margin-bottom: 20px;
+}
+
+/* Other */
+
+.other-container a {
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: #1A1100; /* dark brown */
+}
+
+.other-container a:hover {
+  color: #E5B317; /* yellow */
 }
