@@ -158,12 +158,6 @@ h2 {
   margin-left: 20px;
 }
 
-#digital-artschools {
-  height: 650px;
-  width: 513px;
-  margin-bottom: 20px;
-}
-
 #digital-weevil {
   height: 633px;
   width: 950px;
@@ -408,4 +402,15 @@ margin-bottom: 20px;
 
 .other-container a:hover {
   color: #E5B317; /* yellow */
+}
+
+#other-hitbox {
+  height: 512px;
+  width: 512px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hitbox-credit {
+  font-size: 12px;
 }
