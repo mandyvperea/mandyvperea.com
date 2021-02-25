@@ -124,6 +124,26 @@ h2 {
   margin-right: 50px;
 }
 
+#digital-voting {
+  height: 700px;
+  width: 528.6px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#digital-caution {
+  height: 682.6px;
+  width: 512px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#digital-cecropia {
+  height: 693.75px;
+  width: 918.75px;
+  margin-bottom: 20px;
+}
+
 #digital-disability {
   height: 658px;
   width: 508px;
